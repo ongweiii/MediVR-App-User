@@ -1,0 +1,38 @@
+$borderColor: #8a69d4;
+$iconColor: #713bdb;
+
+
+.nav-item {
+  width: 100%;
+  padding: 20px;
+  cursor: pointer;
+  transition: background 200ms ease-in-out;
+  color: white;
+  text-decoration: none !important;
+  display: grid;
+  grid-template-areas: "icon labels";
+  grid-template-columns: 30px auto;
+  column-gap: 5px;
+  text-align: center;
+  font-size: 18px;
+
+  &.active {
+    border-left: 10px solid $borderColor;
+    background: white;
+    color: $iconColor;
+  }
+
+  .icon {
+    grid-area: icon;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  .label {
+    grid-area: labels;
+    text-align: start;
+    display: flex;
+    align-items: center;
+  }
+}

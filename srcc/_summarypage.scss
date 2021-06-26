@@ -1,0 +1,146 @@
+*{
+  font: Montserrat;
+}
+
+.info{
+  display: grid;
+  height: 15vh;
+  align-content: center;
+  border: 2px solid red;
+  margin-bottom: .5em;
+}
+
+.grid-container {
+  margin-left: .2em;
+  margin-right: .2em;
+  display: grid;
+  height: 80vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+
+.grid-container > *{
+  border-radius: 20px;
+  padding: .3em;
+  background: #DFE1EB;
+  height:90px;
+}
+
+.grid-item1{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap:.5em;
+  height: 90px;
+}
+.grid-item1 > .icon-container{
+display: grid;
+align-content: center;
+
+}
+.grid-item1 > .content {
+  position: relative;
+  height: fit-content;
+}
+
+.grid-item1 > .content > .status{
+  font-weight: 600;
+  color: black;
+  font-size: 2em;
+  
+}
+.grid-item1 > .content > .type{
+  color: white;
+  font-weight:bold;
+  font-size: .7em;
+
+}
+
+.grid-item5 {
+  grid-row: 2/5;
+  height: 340px;
+  
+}
+
+.grid-item6{
+  grid-row: 2/5;
+  height: 340px;
+}
+
+
+.grid-item11{
+  grid-column: 4/5; 
+  grid-row:3/5;
+  height: 220px;
+
+}
+
+.icon-orange {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  height:2em;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:2em;
+  color: #FFB800;
+  background: rgba(255, 184, 0, 0.07);
+}
+
+.icon-green{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  height:2em;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:2em;
+  align-content: center;
+  color: #21B8C7;
+  background: rgba(51, 214, 159, 0.07);
+
+}
+
+.icon-red{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  height:2em;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:2em;
+  align-content: center;
+  color: #FF4C61;
+  background: rgba(255, 76, 97, 0.05);
+}
+
+.icon-blue{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  height:2em;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:2em;
+  align-content: center;
+  color: #4CB8FF;
+  background: rgba(76, 184, 255, 0.07);
+}
+
+.rewatch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: black;
+  font-size: 2em;
+
+}

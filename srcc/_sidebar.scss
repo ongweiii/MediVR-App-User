@@ -1,0 +1,36 @@
+$sidebar-color: #373b53;
+
+.main {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: $sidebar-color;
+  color: white;
+  width: 220px;
+  letter-spacing: 0.15px;
+  height: 100vh;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.logo {
+  margin-top: 31px;
+  width: 140px;
+  height: auto;
+}
+
+.logo-btn {
+  background: none;
+  border: none;
+}
+
+.logo-btn:focus {
+  outline: none;
+}
+
+.menuSideBarContainer > :last-child{
+  position: absolute;
+  bottom: 0;
+  
+
+}
